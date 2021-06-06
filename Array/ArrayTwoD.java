@@ -1,6 +1,4 @@
-import javax.annotation.processing.SupportedSourceVersion;
-
-public class Array2d {
+ class ArrayTwoD{
     public static void main(String[] args) {
         int A[][] = {{1,2,3},{4,5,1},{1,5,6}};
         int B[][] = {{5,2,4},{4,3,6},{1,5,4}};
