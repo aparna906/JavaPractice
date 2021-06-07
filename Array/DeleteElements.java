@@ -1,16 +1,20 @@
 import java.util.Arrays;
 
 class DeleteElements {
-    public static void delete(int A[],int index) {
-        for(int i=index; i<A.length-1; i++){
-           // A[i] = A[i+1];
-        }
-        System.out.println(Arrays.toString(A));
+    public static void remIndex( int [] arr, int remIndex )
+{
+   for ( int i = remIndex ; i < arr.length - 1 ; i++ )
+   {
+      arr[ i ] = arr[ i + 1 ] ; 
+   }
+
+         
+          System.out.println(Arrays.toString(arr));
      }
       public static void main(String[] args) {
-          int A[] = {1,2,3,11,5,6};
+          int arr[] = {1,2,3,11,5};
           int index = 3;
-          delete(A, index);
+          remIndex(arr, index );
       } 
     }
 
