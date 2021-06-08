@@ -22,7 +22,7 @@ class BinarySearch {
         int a[] ={11,16,19,21,25,30,32,35,39,41,45,51,55,56,60};
         int l=0;
         int h=a.length-1;
-        int key=55;
+        int key=12;
        search(a, l, h, key);
     }
     
